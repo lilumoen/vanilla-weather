@@ -15,27 +15,38 @@
   <body>
     <div class="weather-app">
       <header>
-        <form>
-          <input type="search" placeholder="Search" required id="" />
-          <input type="submit" value="🔍" />
+        <form class="search-form">
+          <input
+            type="search"
+            placeholder="Search"
+            class="search-form-input"
+            id="search-form-input"
+          />
+          <input type="submit" value="🔍" class="search-form-button" />
         </form>
       </header>
 
       <main>
-        <h1>Barcelona</h1>
-        <div>
-          <p>
-            Saturday 14:49, scattered clouds
-            <br />
-            Humidity: 66%, Wind:3.13km/h
-          </p>
-        </div>
-        <div>⛅️ 14°C</div>
+        <div class="weather-app-data">
+          <div>
+            <div class="weather-app-temperature-container">
+                          <div class="weather-app-icon">⛅️</div>
+            <h1 class="weather-app-city">Barcelona</h1>
+              <div class="weather-app-current-temperature">14</div> 
+              <div class="weather-app-unit">°C</div>
+            </div>
+            <p class="weather-app-details">
+              Saturday 14:49, scattered clouds
+              <br />
+              Humidity: <strong>66%</strong>, Wind: <strong>3.13km/h</strong>
+            </p>
+            </div>
+          </div>
       </main>
       <footer>
         This project was coded by
-        <a href="https://github.com/lilumoen" target="_blank"> Lill Moen</a>, is
-        open-sourced on
+        <a href="https://github.com/lilumoen" target="_blank"> Lill Moen</a>,
+        <br />is open-sourced on
         <a href="https://github.com/lilumoen/vanilla-weather" target="_blank">
           Github</a
         >
@@ -44,6 +55,7 @@
           Netlify</a
         >
       </footer>
-    </div>
+         </div>
+   </div>
   </body>
 </html>
