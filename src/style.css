@@ -15,11 +15,12 @@ img {
     rgb(191, 196, 230) 3.6%,
     rgb(34, 43, 67) 105.8%
   );
-  color: #323456;
+  color: #373858;
   max-width: 400px;
-  margin: 6% auto;
+  margin: 10% auto;
+  margin-top: 120px;
   box-shadow: 0 10px 30px 0 rgba(50, 40, 60, 0.7);
-  padding: 4%;
+  padding: 3%;
   border-radius: 20px;
   border: 0.1px solid grey;
 }
@@ -31,21 +32,23 @@ header {
 
 .search-form-input {
   background-color: #f9f7fe;
-  border: solid rgba(195, 193, 198, 0.7);
+  border: none;
   border-radius: 6px;
   width: 50%;
   padding: 12px;
   font-size: 15px;
   color: #323456;
-  margin-left: 69px;
+  margin-left: 60px;
+  box-shadow: 0 0.5px 0.5px rgba(50, 40, 60, 0.7);
 }
 
 .search-form-button {
   background-color: #f9f7fe;
   padding: 12px 18px;
-  border: solid rgba(195, 193, 198, 0.7);
+  border: none;
   border-radius: 6px;
   margin-left: 2px;
+  box-shadow: 0 10px 30px 0 rgba(50, 40, 60, 0.7);
 }
 
 .weather-app-data {
@@ -97,7 +100,7 @@ main {
 }
 
 a {
-  color: #27376d;
+  color: #03103b;
 }
 footer {
   border-top: 0.5px solid #323a54;
