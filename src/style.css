@@ -41,7 +41,8 @@ header {
 
 .search-form-button {
   background-color: #f9f7fe;
-  padding: 12px 18px;
+  width: 60px;
+  padding: 13px 18px;
   border: none;
   border-radius: 6px;
   margin-left: 2px;
