@@ -5,10 +5,7 @@ body {
   font-weight: weight;
   font-style: normal;
 }
-img {
-  max-width: fit-content;
-  height: auto;
-}
+
 .weather-app {
   background: linear-gradient(
     177.9deg,
@@ -18,7 +15,7 @@ img {
   color: #373858;
   max-width: 400px;
   margin: 10% auto;
-  margin-top: 90px;
+  margin-top: 65px;
   box-shadow: 0 10px 30px 0 rgba(50, 40, 60, 0.7);
   padding: 40px;
   border-radius: 20px;
@@ -34,7 +31,7 @@ header {
   background-color: #f9f7fe;
   border: none;
   border-radius: 6px;
-  width: 50%;
+  width: 56%;
   padding: 12px;
   font-size: 15px;
   color: #323456;
