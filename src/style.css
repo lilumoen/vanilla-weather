@@ -13,7 +13,7 @@ body {
     rgb(34, 43, 67) 105.8%
   );
   color: #373858;
-  max-width: 350px;
+  max-width: 380px;
   margin: 40px auto;
   margin-top: 65px;
   box-shadow: 0 10px 30px 0 rgba(50, 40, 60, 0.7);
@@ -31,11 +31,11 @@ header {
   background-color: #f9f7fe;
   border: none;
   border-radius: 6px;
-  width: 135px;
+  width: 145px;
   padding: 12px;
   font-size: 15px;
   color: #323456;
-  margin-left: 60px;
+  margin-left: 90px;
   box-shadow: 0 0.5px 0.5px rgba(50, 40, 60, 0.7);
 }
 
@@ -52,11 +52,12 @@ header {
 .weather-app-data {
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 .weather-app-temperature-container {
   display: flex;
-  justify-content: space-between;
+  position: relative;
 }
 
 .weather-app-details {
@@ -71,8 +72,7 @@ header {
   font-size: 25px;
   line-height: 48px;
   margin: 0 auto;
-  display: flex;
-  margin-right: -20px;
+  margin-right: -30px;
   padding: 12px;
 }
 
@@ -81,7 +81,7 @@ header {
   font-weight: bold;
   margin: 0 auto;
   margin-top: 60px;
-  margin-left: -30px;
+  margin-left: -50px;
 }
 
 .weather-app-icon {
