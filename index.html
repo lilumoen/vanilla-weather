@@ -16,7 +16,7 @@
   <body>
     <div class="weather-app">
       <header>
-        <form class="search-form"  id="search-form">
+        <form class="search-form" id="search-form">
           <input
             type="search"
             placeholder="Search"
@@ -29,22 +29,19 @@
 
       <main>
         <div class="weather-app-data">
-          <div>
-            <div class="weather-app-temperature-container">
-              <div id="icon">
-                          
-                           </div>
-            <h1 class="weather-app-city" id="city"></h1>
-              <div class="weather-app-current-temperature" id="temperature"></div> 
-              <div class="weather-app-unit">°C</div>
-            </div>
-            <p class="weather-app-details">
-             <span id="time"></span> <span id="description"></span>
-              <br />
-              Humidity: <strong id="humidity"></strong>, Wind: <strong id="wind"></strong>
-            </p>
-            </div>
+          <h1 class="weather-app-city" id="city"></h1>
+          <div class="weather-app-temperature-container">
+            <div id="icon"></div>
+            <div class="weather-app-current-temperature" id="temperature"></div>
+            <div class="weather-app-unit">°C</div>
           </div>
+          <p class="weather-app-details">
+            <span id="time"></span> <span id="description"></span>
+            <br />
+            Humidity: <strong id="humidity"></strong>, Wind:
+            <strong id="wind"></strong>
+          </p>
+        </div>
       </main>
       <footer>
         This project was coded by
@@ -58,8 +55,7 @@
           Netlify</a
         >
       </footer>
-         </div>
-   </div>
-   <script src="src/script.js"></script>
+    </div>
+    <script src="src/script.js"></script>
   </body>
 </html>

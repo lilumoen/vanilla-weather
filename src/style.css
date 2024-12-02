@@ -53,15 +53,21 @@ header {
   display: flex;
   justify-content: center;
   position: relative;
+  flex-direction: column;
 }
 
 .weather-app-temperature-container {
   display: flex;
   position: relative;
+  justify-content: center;
+  align-items: center;
 }
 
 .weather-app-details {
   line-height: 25px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .weather-app-details strong {
@@ -71,30 +77,23 @@ header {
 .weather-app-city {
   font-size: 25px;
   line-height: 48px;
-  margin: 0 auto;
-  margin-right: -30px;
-  padding: 12px;
+  text-align: center;
 }
 
 .weather-app-current-temperature {
   font-size: 55px;
   font-weight: bold;
-  margin: 0 auto;
-  margin-top: 60px;
-  margin-left: -50px;
+  margin-bottom: 30px;
 }
 
 .weather-app-icon {
   width: 55px;
-  margin: 0 auto;
-  margin-top: 55px;
-  margin-right: -30px;
-  justify-content: space-between;
+  margin-bottom: 30px;
 }
 .weather-app-unit {
-  margin-top: 70px;
   font-size: 25px;
-  margin-right: 80px;
+  margin-right: 30px;
+  margin-bottom: 50px;
 }
 
 main {
