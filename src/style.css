@@ -122,9 +122,8 @@ header {
 .weather-forecast-temperature {
   color: #1e2c57;
   display: flex;
-  font-size: 12px;
-  justify-content: space-evenly;
-  padding: 0 6px;
+  font-size: 11px;
+  padding: 0 2px;
 }
 
 .weather-forecast-temperature-highest {
