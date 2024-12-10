@@ -8,7 +8,9 @@ function refreshWeather(response) {
   let timeElement = document.querySelector("#time");
   let date = new Date(response.data.time * 1000);
   let iconElement = document.querySelector("#icon");
+  let searchInput = document.querySelector("#search-form-input");
 
+  searchInput.value = "";
   cityElement.innerHTML = response.data.city;
   timeElement.innerHTML = formatDate(date);
   humidityElemenet.innerHTML = `${response.data.temperature.humidity}%`;
