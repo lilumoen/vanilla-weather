@@ -76,6 +76,9 @@ header {
   color: #e1e0e4;
 }
 
+.weather-app-details .wind {
+  color: rgb(201, 201, 241);
+}
 .weather-app-city {
   font-size: 25px;
   line-height: 1px;
