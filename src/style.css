@@ -9,7 +9,7 @@ body {
 }
 
 .weather-app {
-  background-image: url("sunset.jpg");
+  background-image: url("IMG_4120.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   color: #e1e0e4;
@@ -36,7 +36,8 @@ header {
   font-size: 12px;
   color: #323456;
   margin-left: 50px;
-  box-shadow: 0 0.5px 0.5px rgba(50, 40, 60, 0.7);
+  -webkit-box-shadow: 0 0 10px #0e0436;
+  box-shadow: 0 0 10px #ffffff;
 }
 
 .search-form-button {
@@ -46,7 +47,8 @@ header {
   border: none;
   border-radius: 6px;
   margin-left: 4px;
-  box-shadow: 0 10px 30px 0 rgba(50, 40, 60, 0.7);
+  -webkit-box-shadow: 0 0 10px #0e0436;
+  box-shadow: 0 0 10px #ffffff;
 }
 
 .weather-app-data {
