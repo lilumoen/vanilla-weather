@@ -9,7 +9,11 @@ body {
 }
 
 .weather-app {
-  background-image: url("IMG_4120.jpeg");
+  background-image: linear-gradient(
+      rgba(9, 15, 10, 0.539),
+      rgba(9, 19, 12, 0.222)
+    ),
+    url("../src/palms.JPG");
   background-repeat: no-repeat;
   background-size: cover;
   color: #e1e0e4;
@@ -78,7 +82,6 @@ header {
 
 .weather-app-details .wind {
   color: rgb(249, 249, 249);
-  background-color: #0101114f;
 }
 .weather-app-city {
   font-size: 25px;
